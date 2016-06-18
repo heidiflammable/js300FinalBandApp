@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:720px;
+  padding: 0 15px;
+
+}
+
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s
+}
+ 
+.nav a:hover {
+  background-color: #ecc0d5;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #ecc0d5;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+#intro{
+    padding: 10px;
+    background-color: #fff;
+    width: 700px;
+    height:40px;
+    margin-bottom: 20px;
+
+}
+
+.bandContainer {
+    outline: 1px solid #aaa;
+    width: 350px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+}
+
+.bandContainer img {
+    float: left;
+    margin: 10px;
+}
+
+.bandContainer ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.bandContainer button {
+    float: right;
+    margin: 10px;
+}
+
+#addBand label {
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 25px;
+}
+
+#addBand label, #addBand input {
+    display: block;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#addBand label[for="artist"], #addBand label[for="song"] {
+    clear: both;
+}
+
+#addBand button {
+    display: block;
+    margin: 5px 20px 10px 10px;
+    float: right;
+    clear: both;
+}
+
+#addBand div {
+    width: 550px;
+}
+
+#addBand div:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+.results {
+  max-width: 480px;
+  margin: 0 auto;
+}
+ 
