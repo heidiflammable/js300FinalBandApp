@@ -6,6 +6,10 @@
   "scripts": {
     "test": "test"
   },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/heidiflammable/Module_6.git"
+  },
   "author": "heidi",
   "license": "ISC",
   "dependencies": {
